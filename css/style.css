@@ -1,0 +1,324 @@
+/*VARIABLES Y MIXINS*/
+/*RESET*/
+/*HOME*/
+/*  HEADER  */
+.menu-navegacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  .menu-navegacion li {
+    color: #FFD854;
+    font-size: 20px;
+    gap: 10px; }
+    .menu-navegacion li a {
+      text-decoration: none;
+      color: #FFD854;
+      gap: .625rem; }
+
+.navbar-item {
+  text-decoration: none;
+  color: #FFD854;
+  font-size: 1.5625rem; }
+
+/*MAIN*/
+.index {
+  background-image: url(../assets/img/RUNINNNNjpg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .index .aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center; }
+    .index .aside .colores {
+      color: #FFD854;
+      font-size: 1.25rem; }
+  .index .image-section {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 25px;
+    align-items: center;
+    justify-content: center; }
+    .index .image-section .fotico {
+      width: 200px;
+      height: 160px; }
+
+.carousel-inner {
+  max-height: 862px;
+  margin: 1.875rem; }
+  .carousel-inner img {
+    width: 100%;
+    max-height: 862px; }
+
+.alvin {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+  margin-left: 20px; }
+
+.caption {
+  margin-top: 10px; }
+
+/**ASIDE**/
+.flia {
+  background-color: #FFD854;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15%;
+  margin-top: 15px;
+  box-shadow: 0 -10px 20px rgba(56, 49, 32, 0.7);
+  font-size: 20px; }
+  .flia .boton {
+    background: linear-gradient(to right, #fdbb2d, black);
+    color: #f5f5dc;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; }
+    .flia .boton .unite-flia {
+      color: #f5f5dc;
+      text-decoration: none;
+      border-radius: .3125rem; }
+
+/*FOOOTERR*/
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px; }
+  .footer .pie-pagina ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px; }
+    .footer .pie-pagina ul .items-pagina img {
+      width: 30px;
+      height: 30px; }
+
+/*ID*/
+.img-1 {
+  background-image: url("/assets/img/gimnasio.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 300px; }
+
+.img-2 {
+  background-image: url("/assets/img/spinning.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 300px; }
+
+.img-3 {
+  background-image: url("/assets/img/zumba.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 300px; }
+
+.contenedor-cards {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+  background-image: url(/assets/img/RUNINNNNjpg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .contenedor-cards .centrada {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px; }
+    .contenedor-cards .centrada .contenido {
+      text-align: center; }
+
+.img-1 {
+  filter: blur(10px);
+  transition: filter 0.3s; }
+
+.img-1:hover {
+  filter: blur(0); }
+
+.img-2 {
+  filter: blur(10px);
+  transition: filter 0.3s; }
+
+.img-2:hover {
+  filter: blur(0); }
+
+.img-3 {
+  filter: blur(10px);
+  transition: filter 0.3s; }
+
+.img-3:hover {
+  filter: blur(0); }
+
+/*SHOP*/
+.shop {
+  background-color: #FFE17B;
+  min-height: 85vh; }
+
+.ofertas {
+  color: #000000;
+  text-align: center; }
+
+.items-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px; }
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  animation: bounce-in 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) both; }
+
+.product-img {
+  background-image: url(/assets/img/cbd.jpg);
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; }
+
+.product-price {
+  color: #3b3931;
+  margin: 10px 0; }
+
+.add-to-cart {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer; }
+  .add-to-cart .add-to-cart a {
+    text-decoration: none;
+    color: #fff; }
+
+.add-to-cart:hover {
+  background-color: #bf58e7; }
+
+.plans {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 30px; }
+
+.plan {
+  background-color: #8bbe7b;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  animation: swing-in-top-bck 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) both; }
+
+.whatsapp {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-image: radial-gradient(circle, #dec05a, #b0a457, #898854, #676b4f, #4c4e47);
+  padding: 10px 20px;
+  margin: 10px; }
+
+@keyframes bounce-in {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
+/*INCIAR SESION*/
+/* Estilos generales */
+.inicio-sesion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  background-image: url(/assets/img/RUNINNNNjpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .inicio-sesion .inspiracion {
+    margin-bottom: 20px; }
+    .inicio-sesion .inspiracion h3 {
+      font-size: 24px;
+      color: #FFD854; }
+    .inicio-sesion .inspiracion iframe {
+      width: 100%;
+      height: auto; }
+    .inicio-sesion .inspiracion p {
+      font-size: 18px;
+      color: #FFD854; }
+  .inicio-sesion form {
+    background-color: #FFD854;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: left; }
+    .inicio-sesion form h1 {
+      font-size: 28px;
+      margin-bottom: 20px; }
+    .inicio-sesion form .mb-3 {
+      margin-bottom: 15px; }
+      .inicio-sesion form .mb-3 label {
+        font-size: 16px;
+        color: #333; }
+      .inicio-sesion form .mb-3 input[type="email"],
+      .inicio-sesion form .mb-3 input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #2c2a2a;
+        border-radius: 5px; }
+      .inicio-sesion form .mb-3 .form-text {
+        font-size: 14px;
+        color: #FFD854; }
+      .inicio-sesion form .mb-3 .form-check-label {
+        font-size: 20px; }
+    .inicio-sesion form .btn-primary {
+      background-image: radial-gradient(circle, #dec05a, #b0a457, #898854, #676b4f, #4c4e47);
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-left: 20px; }
+  .inicio-sesion .instalaciones {
+    margin-top: 20px; }
+    .inicio-sesion .instalaciones h3 {
+      font-size: 24px;
+      color: #FFD854; }
+    .inicio-sesion .instalaciones video {
+      width: 100%;
+      height: auto; }
+    .inicio-sesion .instalaciones p {
+      font-size: 18px;
+      color: #FFD854; }

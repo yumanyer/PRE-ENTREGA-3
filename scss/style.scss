@@ -1,0 +1,14 @@
+/*VARIABLES Y MIXINS*/ 
+@import "./utilities/variable.scss";
+@import "./utilities/mixins";
+
+/*RESET*/ 
+
+
+
+/*HOME*/
+@import "./layout/INICIO/home.scss";
+/*SHOP*/
+@import "./layout/INICIO/shop.scss";
+/*INCIAR SESION*/
+@import "./layout/INICIO/iniciar-sesion.scss";

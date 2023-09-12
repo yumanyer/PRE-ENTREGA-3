@@ -1,0 +1,196 @@
+/*  HEADER  */
+.menu-navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    li{
+        color: $primary-color;
+        font-size: 20px;
+        gap:10px ;
+        a{
+            text-decoration: none;
+            color: $primary-color;
+            gap: .625rem;
+        }   
+    }
+}
+.navbar-item{
+    text-decoration: none;
+    color: $primary-color;
+    font-size: 1.5625rem;
+}
+/*MAIN*/
+.index {
+    background-image: url(../assets/img/RUNINNNNjpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    .colores {
+        color: $primary-color;
+        font-size: 1.25rem;
+        }
+        
+    }
+    .image-section {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 25px;
+    align-items: center;
+    justify-content: center;
+
+    .fotico {
+        width: 200px;
+        height: 160px;
+        
+        }
+
+    }
+}
+
+    .carousel-inner {
+    max-height: 862px;
+    margin: 1.875rem;
+
+        img {
+        width: 100%;
+        max-height: 862px;
+    }
+}
+
+    .alvin {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    margin-left: 20px;
+    }
+
+    .caption {
+    margin-top: 10px;
+    }
+
+    /**ASIDE**/
+    .flia{
+        background-color: $primary-color;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15%;
+        margin-top: 15px;
+        box-shadow: 0 -10px 20px rgba(56, 49, 32, 0.7);
+        font-size: 20px;
+        .boton {
+            background: linear-gradient(to right, #fdbb2d, black);
+            color: #f5f5dc;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            .unite-flia{
+                color: #f5f5dc;
+                text-decoration: none;
+                border-radius: .3125rem;
+            }
+        }
+    
+    }
+
+    /*FOOOTERR*/
+    .footer {
+        background-color: #333; 
+        color: white; 
+        text-align: center; 
+        padding: 10px; 
+    
+        .pie-pagina {
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: center; 
+            gap: 10px; 
+            .items-pagina {
+            img {
+                width: 30px; 
+                height: 30px; 
+                }
+            }
+        }
+    }
+    }
+    /*ID*/
+    .img-1{
+        background-image:url("/assets/img/gimnasio.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        height: 500px;
+        width: 300px;
+    }
+    .img-2{
+        background-image:url("/assets/img/spinning.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        height: 500px;
+        width: 300px;
+    }
+    .img-3{
+        background-image:url("/assets/img/zumba.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        height: 500px;
+        width: 300px;
+    }
+    
+    .contenedor-cards {
+        display: flex;
+        justify-content: center; 
+        gap: 75px; 
+        background-image: url(/assets/img/RUNINNNNjpg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        .centrada {
+            flex: 1;   
+            max-width: 300px;
+            margin: 10px; 
+            .contenido{
+                text-align: center;
+            
+            }
+        }           
+    }
+    .img-1{
+        filter: blur(10px);
+        transition: filter 0.3s;
+    }
+    .img-1:hover{
+        filter: blur(0);
+    }
+    .img-2{
+        filter: blur(10px);
+        transition: filter 0.3s;
+    }
+    .img-2:hover{
+        filter: blur(0);
+    }
+    .img-3{
+        filter: blur(10px);
+        transition: filter 0.3s;
+    }
+    .img-3:hover{
+        filter: blur(0);
+    }
+
