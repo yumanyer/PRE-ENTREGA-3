@@ -1,3 +1,6 @@
+body{
+    font-family: $font-open-sans;
+}
 .shop {
     background-color: #FFE17B;
     min-height: 85vh;
@@ -9,9 +12,7 @@
 }
 
 .items-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include centrar-elemento;
     flex-wrap: wrap;
     gap: 40px;
 }
@@ -59,11 +60,14 @@
 .add-to-cart:hover {
     background-color: #bf58e7;
 }
-
+h2{
+    text-align: center;
+    font-family: $font-open-sans;
+    font-size: 40px;
+    margin-top: 40px
+}
 .plans {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include centrar-elemento;
     flex-wrap: wrap;
     gap: 1rem;
     margin-top: 30px;
@@ -75,17 +79,18 @@
     padding: 1rem;
     border-radius: 10px;
     text-align: center;
-    width: 250px;
+    width: 280px;
     animation: swing-in-top-bck 0.8s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 }
 .whatsapp{
-    text-decoration: none;
-    color: #fff;
     font-weight: bold;
     background-image: radial-gradient(circle, #dec05a, #b0a457, #898854, #676b4f, #4c4e47);
     padding: 10px 20px;
     margin: 10px;
-    
+        a{
+        text-decoration: none;
+        color: #fff;
+    }
 }
 // Animación bounce-in
 @keyframes bounce-in {

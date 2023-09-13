@@ -2,6 +2,9 @@
 /*RESET*/
 /*HOME*/
 /*  HEADER  */
+body {
+  font-family: "Open Sans", sans-serif; }
+
 .menu-navegacion {
   display: flex;
   justify-content: center;
@@ -67,9 +70,9 @@
 .flia {
   background-color: #FFD854;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border-radius: 15%;
   margin-top: 15px;
   box-shadow: 0 -10px 20px rgba(56, 49, 32, 0.7);
@@ -131,6 +134,7 @@
 .contenedor-cards {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 75px;
   background-image: url(/assets/img/RUNINNNNjpg.jpg);
   background-repeat: no-repeat;
@@ -165,6 +169,9 @@
   filter: blur(0); }
 
 /*SHOP*/
+body {
+  font-family: "Open Sans", sans-serif; }
+
 .shop {
   background-color: #FFE17B;
   min-height: 85vh; }
@@ -175,7 +182,7 @@
 
 .items-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 40px; }
@@ -218,9 +225,15 @@
 .add-to-cart:hover {
   background-color: #bf58e7; }
 
+h2 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  margin-top: 40px; }
+
 .plans {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
@@ -232,16 +245,17 @@
   padding: 1rem;
   border-radius: 10px;
   text-align: center;
-  width: 250px;
+  width: 280px;
   animation: swing-in-top-bck 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) both; }
 
 .whatsapp {
-  text-decoration: none;
-  color: #fff;
   font-weight: bold;
   background-image: radial-gradient(circle, #dec05a, #b0a457, #898854, #676b4f, #4c4e47);
   padding: 10px 20px;
   margin: 10px; }
+  .whatsapp a {
+    text-decoration: none;
+    color: #fff; }
 
 @keyframes bounce-in {
   0% {
@@ -252,11 +266,14 @@
     opacity: 1; } }
 
 /*INCIAR SESION*/
-/* Estilos generales */
+body {
+  font-family: "Open Sans", sans-serif; }
+
 .inicio-sesion {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
   padding: 20px;
   background-color: #f0f0f0;
@@ -322,3 +339,149 @@
     .inicio-sesion .instalaciones p {
       font-size: 18px;
       color: #FFD854; }
+
+/*CREAR USARIO*/
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f0f0f0; }
+
+.contenedor {
+  text-align: center; }
+  .contenedor .text-shadow-drop-center {
+    -webkit-animation: text-shadow-drop-center 0.6s both;
+    animation: text-shadow-drop-center 0.6s both; }
+
+@-webkit-keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 #FFD854; }
+  100% {
+    text-shadow: 0 0 18px #FFD854; } }
+
+@keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 #FFD854; }
+  100% {
+    text-shadow: 0 0 18px #FFD854; } }
+
+.fondo {
+  background-image: url(/assets/img/RUNINNNNjpg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .fondo .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; }
+
+.fondo-amarillo {
+  background-color: #FFD854;
+  padding: 20px;
+  text-align: center; }
+  .fondo-amarillo .button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s; }
+    .fondo-amarillo .button:hover {
+      background-color: #333; }
+  .fondo-amarillo p {
+    margin-top: 10px; }
+    .fondo-amarillo p a {
+      text-decoration: none;
+      color: inherit; }
+      .fondo-amarillo p a:hover {
+        text-decoration: underline; }
+
+.faq {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+h1 {
+  text-align: center;
+  color: #333; }
+
+.faq-item {
+  margin-bottom: 20px; }
+  .faq-item h3 {
+    font-size: 18px;
+    color: #FFD854; }
+  .faq-item p {
+    font-size: 14px;
+    color: #555; }
+
+/*MEMBRESIA*/
+.membreship {
+  background-image: url(/assets/img/RUNINNNNjpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+h1 {
+  text-align: center; }
+
+.membresias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; }
+
+.membresia-card {
+  background-color: #FFD854;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s; }
+  .membresia-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); }
+  .membresia-card h2 {
+    font-size: 24px;
+    color: #fff; }
+  .membresia-card p {
+    font-size: 16px;
+    color: #fff;
+    margin: 8px 0; }
+  .membresia-card .adquirir-button {
+    margin-top: 20px; }
+    .membresia-card .adquirir-button a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #fff;
+      color: #000000;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.2s, color 0.2s; }
+      .membresia-card .adquirir-button a:hover {
+        background-image: radial-gradient(circle, #d2da20, #ef8c2e, #d04b5a, #83336b, #252755);
+        color: #fff; }
+
+.faq-membreship {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+h1 {
+  text-align: center;
+  color: #333; }
+
+.faq-item {
+  margin-bottom: 20px; }
+  .faq-item h3 {
+    font-size: 18px;
+    color: #FFD854; }
+  .faq-item p {
+    font-size: 14px;
+    color: #555; }

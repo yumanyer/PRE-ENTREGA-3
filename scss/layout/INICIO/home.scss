@@ -1,8 +1,9 @@
 /*  HEADER  */
+body{
+    font-family: $font-open-sans;
+}
 .menu-navegacion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centrar-elemento;
     width: 100%;
     li{
         color: $primary-color;
@@ -80,10 +81,8 @@
     /**ASIDE**/
     .flia{
         background-color: $primary-color;
-        display: flex;
+        @include centrar-elemento;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
         border-radius: 15%;
         margin-top: 15px;
         box-shadow: 0 -10px 20px rgba(56, 49, 32, 0.7);
@@ -155,8 +154,7 @@
     }
     
     .contenedor-cards {
-        display: flex;
-        justify-content: center; 
+        @include centrar-elemento;
         gap: 75px; 
         background-image: url(/assets/img/RUNINNNNjpg.jpg);
         background-repeat: no-repeat;
