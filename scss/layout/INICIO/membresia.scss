@@ -1,8 +1,8 @@
+body{
+    font-family: $font-open-sans;
+}
 .membreship{
-    background-image: url(/assets/img/RUNINNNNjpg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    @extend %fondo-imagen;
 }
 h1{
     text-align: center;
@@ -60,7 +60,7 @@ h1{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-image: radial-gradient(circle, #000000, #4d2b2b, #965741, #d5914b, #ffd854);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -80,6 +80,6 @@ h1 {
 
     p {
         font-size: 14px;
-        color: #555;
+        color: #FFEDE6;
     }
 }

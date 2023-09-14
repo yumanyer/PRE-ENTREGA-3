@@ -23,7 +23,7 @@ body{
 }
 /*MAIN*/
 .index {
-    @extend .fondo-imagen;
+    @extend %fondo-imagen;
     .aside {
     display: flex;
     flex-direction: row;
@@ -152,7 +152,7 @@ body{
     .contenedor-cards {
         @include centrar-elemento;
         gap: 75px; 
-        @extend .fondo-imagen;
+        @extend %fondo-imagen;
         .centrada {
             flex: 1;   
             max-width: 300px;
