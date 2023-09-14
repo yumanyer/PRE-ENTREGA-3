@@ -4,3 +4,6 @@
     align-items: center;
 }
 
+@mixin custom-box-shadow {
+    box-shadow: 0 -10px 20px rgba(56, 49, 32, 0.7);
+}

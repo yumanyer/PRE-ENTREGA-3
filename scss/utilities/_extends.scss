@@ -1,0 +1,20 @@
+%boton{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+
+    &:hover {
+    background-color: #333;
+    }
+}
+
+.fondo-imagen {
+    background-image: url(/assets/img/RUNINNNNjpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

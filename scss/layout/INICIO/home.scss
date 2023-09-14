@@ -23,11 +23,7 @@ body{
 }
 /*MAIN*/
 .index {
-    background-image: url(../assets/img/RUNINNNNjpg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
+    @extend .fondo-imagen;
     .aside {
     display: flex;
     flex-direction: row;
@@ -85,7 +81,7 @@ body{
         flex-direction: column;
         border-radius: 15%;
         margin-top: 15px;
-        box-shadow: 0 -10px 20px rgba(56, 49, 32, 0.7);
+        @include custom-box-shadow;
         font-size: 20px;
         .boton {
             background: linear-gradient(to right, #fdbb2d, black);
@@ -156,10 +152,7 @@ body{
     .contenedor-cards {
         @include centrar-elemento;
         gap: 75px; 
-        background-image: url(/assets/img/RUNINNNNjpg.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        @extend .fondo-imagen;
         .centrada {
             flex: 1;   
             max-width: 300px;

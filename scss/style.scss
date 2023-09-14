@@ -1,10 +1,9 @@
-/*VARIABLES Y MIXINS*/ 
+/*VARIABLES,MIXINS,EXTENDS*/ 
 @import "./utilities/variable.scss";
 @import "./utilities/mixins";
-
+@import "./utilities/extends";
 /*RESET*/ 
-
-
+@import "./base/reset";
 
 /*HOME*/
 @import "./layout/INICIO/home.scss";
