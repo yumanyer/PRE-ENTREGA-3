@@ -10,7 +10,7 @@
   .add-to-cart:hover, .whatsapp:hover, .inicio-sesion form .btn-primary:hover, .fondo-amarillo .button:hover {
     background-color: #333; }
 
-.index, .contenedor-cards, .inicio-sesion, .fondo, .membreship {
+.index, .contenedor-cards, .inicio-sesion, .fondo, .faq, main, .membreship, .faq-membreship {
   background-image: url(../assets/img/fondoprincipal.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -114,7 +114,7 @@ body {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 10px; }
+  padding: 45px; }
   .footer .pie-pagina ul {
     list-style: none;
     display: flex;
@@ -277,13 +277,13 @@ h2 {
     margin-bottom: 20px; }
     .inicio-sesion .inspiracion h3 {
       font-size: 24px;
-      color: #FFD854; }
+      color: black; }
     .inicio-sesion .inspiracion iframe {
       width: 100%;
       height: auto; }
     .inicio-sesion .inspiracion p {
       font-size: 18px;
-      color: #FFD854; }
+      color: black; }
   .inicio-sesion form {
     background-color: #FFD854;
     padding: 20px;
@@ -309,20 +309,20 @@ h2 {
         border-radius: 5px; }
       .inicio-sesion form .mb-3 .form-text {
         font-size: 14px;
-        color: #FFD854; }
+        color: black; }
       .inicio-sesion form .mb-3 .form-check-label {
         font-size: 20px; }
   .inicio-sesion .instalaciones {
     margin-top: 20px; }
     .inicio-sesion .instalaciones h3 {
       font-size: 24px;
-      color: #FFD854; }
+      color: black; }
     .inicio-sesion .instalaciones video {
       width: 100%;
       height: auto; }
     .inicio-sesion .instalaciones p {
       font-size: 18px;
-      color: #FFD854; }
+      color: black; }
 
 /*CREAR USARIO*/
 body {

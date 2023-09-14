@@ -13,7 +13,7 @@
 
     h3 {
         font-size: 24px;
-        color: $primary-color; 
+        color: $contraster-color; 
     }
 
     iframe {
@@ -23,12 +23,12 @@
 
     p {
         font-size: 18px;
-        color: $primary-color;; 
+        color: $contraster-color; 
     }
     }
 
     form {
-    background-color:  $primary-color;
+    background-color: $primary-color;
     padding: 20px;
     border-radius: 5px;
     @include custom-box-shadow;
@@ -59,7 +59,7 @@
 
         .form-text {
         font-size: 14px;
-        color: $primary-color;
+        color:$contraster-color;
         }
 
         .form-check-label {
@@ -78,7 +78,7 @@
 
     h3 {
         font-size: 24px;
-        color: $primary-color; 
+        color: $contraster-color; 
     }
 
     video {
@@ -88,7 +88,7 @@
 
     p {
         font-size: 18px;
-        color: $primary-color;
+        color: $contraster-color;
     }
     }
 }

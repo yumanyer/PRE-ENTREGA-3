@@ -63,6 +63,7 @@ h1{
     background-image: radial-gradient(circle, #000000, #4d2b2b, #965741, #d5914b, #ffd854);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    @extend %fondo-imagen;
 }
 
 h1 {

@@ -6,7 +6,7 @@ body{
     .text-shadow-drop-center {
         -webkit-animation: text-shadow-drop-center 0.6s both;
                 animation: text-shadow-drop-center 0.6s both;
-    }@-webkit-keyframes text-shadow-drop-center {
+    } @-webkit-keyframes text-shadow-drop-center {
         0% {
         text-shadow: 0 0 0 $primary-color;
         }
@@ -33,9 +33,11 @@ body{
     }
 }
 .fondo-amarillo {
+    
     background-color:$primary-color; 
     padding: 20px;
     text-align: center;
+
 
     
     .button {
@@ -63,6 +65,7 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-image: radial-gradient(circle, #000000, #4d2b2b, #965741, #d5914b, #ffd854);
+    @extend %fondo-imagen;
 }
 
 h1 {
@@ -83,4 +86,6 @@ h1 {
         color: #FFEDE6;
     }
 }
-
+main{
+    @extend %fondo-imagen;
+}
