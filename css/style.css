@@ -16,17 +16,17 @@
   background-repeat: no-repeat;
   background-position: center; }
 
-/*RESET*/
+/*RESET Y GENERALES*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-/*HOME*/
-/*  HEADER  */
 body {
   font-family: "Open Sans", sans-serif; }
 
+/*HOME*/
+/*  HEADER  */
 .menu-navegacion {
   display: flex;
   justify-content: center;
@@ -183,9 +183,6 @@ body {
   filter: blur(0); }
 
 /*SHOP*/
-body {
-  font-family: "Open Sans", sans-serif; }
-
 .shop {
   background-color: #FFE17B;
   min-height: 85vh; }
@@ -325,9 +322,6 @@ h2 {
       color: black; }
 
 /*CREAR USARIO*/
-body {
-  font-family: "Open Sans", sans-serif; }
-
 .contenedor {
   text-align: center; }
   .contenedor .text-shadow-drop-center {
@@ -374,13 +368,13 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background-image: radial-gradient(circle, #000000, #4d2b2b, #965741, #d5914b, #ffd854); }
 
-h1 {
+h3 {
   text-align: center;
   color: #333; }
 
 .faq-item {
   margin-bottom: 20px; }
-  .faq-item h3 {
+  .faq-item h5 {
     font-size: 18px;
     color: #FFD854; }
   .faq-item p {
@@ -388,9 +382,6 @@ h1 {
     color: #FFEDE6; }
 
 /*MEMBRESIA*/
-body {
-  font-family: "Open Sans", sans-serif; }
-
 h1 {
   text-align: center; }
 
@@ -441,13 +432,13 @@ h1 {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
 
-h1 {
+h3 {
   text-align: center;
   color: #FFD854; }
 
 .faq-item {
   margin-bottom: 20px; }
-  .faq-item h3 {
+  .faq-item h5 {
     font-size: 18px;
     color: #FFD854; }
   .faq-item p {

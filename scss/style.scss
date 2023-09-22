@@ -2,8 +2,9 @@
 @import "./utilities/variable.scss";
 @import "./utilities/mixins";
 @import "./utilities/extends";
-/*RESET*/ 
+/*RESET Y GENERALES*/ 
 @import "./base/reset";
+@import "./base/generales";
 
 /*HOME*/
 @import "./layout/INICIO/home.scss";
