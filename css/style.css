@@ -26,6 +26,11 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 /*HOME*/
+/*BARRA DE NAVEGACION*/
+.nav-link:hover {
+  font-size: 25px;
+  color: yellow; }
+
 /*  HEADER  */
 .menu-navegacion {
   display: flex;
@@ -181,6 +186,9 @@ body {
 
 .img-3:hover {
   filter: blur(0); }
+
+.lista {
+  color: #FFD854; }
 
 /*SHOP*/
 .shop {
@@ -383,7 +391,8 @@ h3 {
 
 /*MEMBRESIA*/
 h1 {
-  text-align: center; }
+  text-align: center;
+  color: yellow; }
 
 .membresias {
   display: flex;
@@ -444,3 +453,17 @@ h3 {
   .faq-item p {
     font-size: 14px;
     color: #FFEDE6; }
+
+@media screen and (max-width: 1024px) {
+  .bootstrap {
+    flex-direction: column;
+    padding-right: 50px; }
+  .image.section {
+    flex-direction: column;
+    margin-right: 20px; }
+  .contenedor-cards {
+    flex-direction: column; } }
+
+@media screen and (max-width: 425px) {
+  .membresias {
+    flex-direction: column; } }

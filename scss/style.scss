@@ -15,4 +15,13 @@
 /*CREAR USARIO*/
 @import"./layout/INICIO/crear-usario.scss";
 /*MEMBRESIA*/
-@import"./layout/INICIO/membresia.scss"
+@import"./layout/INICIO/membresia.scss";
+
+//*RESPONSIVE*// 
+@import "./layout/INICIO/media/media-1024";
+
+@import "./layout/INICIO/media/media768";
+
+@import "./layout/INICIO/media/media425";
+
+@import "./layout/INICIO/media/media320";
