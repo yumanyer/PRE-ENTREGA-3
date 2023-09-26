@@ -3,7 +3,7 @@
 - Este prpyecto fue hecho y maquetado por manuel pisoni 
 - Se usaron las soguiente tecnologias: HTML, CSS, SASS, GIT HUB, GIT BOOTSTRAP, FIGMA 
 - La pagina trata sobre un gimnasio ubicado en La Plata que permite al usario conectarse con el gimnasio 
-- Todo el conociemiento aprendido en el curso fue plasmado en la pagina 
+- Todo el conociemiento aprendido en el curso fue plasmado en la pagina
 
 
 ## FUNCIONES 
