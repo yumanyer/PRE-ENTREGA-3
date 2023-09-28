@@ -7,3 +7,10 @@
 @mixin custom-box-shadow {
     box-shadow: 0 -10px 20px rgba(56, 49, 32, 0.7);
 }
+@mixin img-cards{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 500px;
+    width: 300px;
+}

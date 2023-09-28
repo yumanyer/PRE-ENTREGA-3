@@ -1,14 +1,5 @@
-@media screen and (max-width:1024px){
-    .bootstrap{
-        flex-direction: column;
-        padding-right: 50px;
-        
-    }
-    .image.section{
-        flex-direction: column;
-        margin-right: 20px;
-    }
-    .contenedor-cards{
-        flex-direction: column;
+@media screen and (max-width:768px){
+    .image-section p{
+        font-size:15px;    
     }
 }

@@ -219,7 +219,7 @@ body {
   animation: bounce-in 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) both; }
 
 .product-img {
-  background-image: url(/assets/img/cbd.jpg);
+  background-image: url(../assets/img/cbd.jpg);
   width: 150px;
   height: 150px;
   background-size: cover;
@@ -464,6 +464,14 @@ h3 {
   .contenedor-cards {
     flex-direction: column; } }
 
+@media screen and (max-width: 768px) {
+  .image-section p {
+    font-size: 15px; } }
+
 @media screen and (max-width: 425px) {
   .membresias {
+    flex-direction: column; } }
+
+@media screen and (max-width: 320px) {
+  .aside {
     flex-direction: column; } }

@@ -129,27 +129,15 @@
     /*ID*/
     .img-1{
         background-image:url("../assets/img/gimnasio.jpeg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; 
-        height: 500px;
-        width: 300px;
+        @include img-cards;
     }
     .img-2{
         background-image:url("../assets/img/spinning.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; 
-        height: 500px;
-        width: 300px;
+        @include img-cards;
     }
     .img-3{
         background-image:url("../assets/img/zumba.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; 
-        height: 500px;
-        width: 300px;
+        @include img-cards;
     }
     
     .contenedor-cards {
