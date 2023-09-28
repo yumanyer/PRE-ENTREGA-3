@@ -131,7 +131,7 @@ body {
 
 /*ID*/
 .img-1 {
-  background-image: url("/assets/img/gimnasio.jpeg");
+  background-image: url("../assets/img/gimnasio.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -139,7 +139,7 @@ body {
   width: 300px; }
 
 .img-2 {
-  background-image: url("/assets/img/spinning.jpg");
+  background-image: url("../assets/img/spinning.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -147,7 +147,7 @@ body {
   width: 300px; }
 
 .img-3 {
-  background-image: url("/assets/img/zumba.jpg");
+  background-image: url("../assets/img/zumba.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
